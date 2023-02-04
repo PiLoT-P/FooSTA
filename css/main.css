@@ -7,8 +7,6 @@
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -74,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+body {
+  font-family: "Roboto";
+}
+
 .container {
   padding: 0px 20px;
 }
@@ -324,4 +326,44 @@ h1, h2, h3, h4, h5, h6 {
 .offerings__button:hover {
   background: #BBF330;
   border-radius: 30px;
+}
+
+.favorites__container {
+  margin-top: 100px;
+}
+.favorites__content {
+  margin: 0px auto;
+  width: 656px;
+  height: 87px;
+  margin-bottom: 100px;
+}
+.favorites__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.favorites__text {
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favorites__item {
+  padding: 16px;
+  float: left;
+  width: 33.33%;
+}
+.favorites__item img {
+  border: 16px solid #FFE550;
+  border-radius: 50%;
+  padding: 40px;
+}
+.favorites__item img:hover {
+  border: 16px solid #BBF330;
 }/*# sourceMappingURL=main.css.map */
